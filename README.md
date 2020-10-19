@@ -1,4 +1,4 @@
-#USA Voting game
+# USA Voting game
 
 A game based on the barriers to voting in the USA. 
 
