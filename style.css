@@ -1,0 +1,258 @@
+.container{
+    margin-left: 50%;    
+}
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -180px;
+}
+.mini-grid{
+    border-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    margin-left: -360px;
+}
+.mini-grid div{
+    height: 40px;
+    width: 360px;
+}
+.mini-grid-block{
+    width: 320px;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: #fcba03;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+
+}
+.mini-grid-block h3{
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+}
+.mini-grid h4{
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding-left: 100px;
+    color:white;
+}
+.grid-button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -180px;
+    width: 360px;
+    margin-top: 15px;
+
+}
+.grid-button-block{
+    width: 150px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: white;
+    background-color: #fcba03;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    
+}
+.grid-button-block button{
+    background-color: green;
+    border:none;
+    color:white;
+    width: 150px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.grid-button-block h3 {
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding-left: 25px;
+    color:white;
+}
+.grid{
+    border: 1px solid;
+    border-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    background-color: whitesmoke;
+}
+.grid div{
+    height: 40px;
+    width: 40px;
+}
+.ballot{
+    background-image: url(images/vote01.png);
+    background-size: cover;
+    background-color: blueviolet;
+    border-radius: 10px
+}   
+.queueing{
+    background-image: url(images/quick-queue.png);
+    background-size: cover;
+}
+.woodland{
+    background-image: url(images/forest-fire.png);
+    background-size: cover;
+    background-color: greenyellow;
+    border-radius: 10px
+}
+.fire{
+    background-image: url(images/forest-fire-burn.png);
+    background-size: cover;
+    background-color:#6d6b65;
+    border-radius: 10px
+}
+.fire-flipped{
+    background-image: url(images/forest-fire-burn.png);
+    background-size: cover;
+    background-color:#6d6b65;
+    border-radius: 10px;
+    transform: scaleX(-1);
+}
+.post{
+    background-image: url(images/post-box.png);
+    background-color: white;
+    background-size: cover;
+    border-radius: 10px;
+}
+.storm{
+    background-color: grey;
+    background-image: url(images/wind.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.eye{
+    background-color: rgb(149, 149, 149);
+    background-image: url(images/hurricane-eye.png);
+    background-size: cover; 
+    border-radius: 10px;
+}
+.angry-pinks{
+    background-image: url(images/protesterBighead.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.road{
+    background-color: gray;
+}
+.police-car{
+    background-color: cornflowerblue; 
+    background-image: url(images/police-car-blue.png);
+    background-size: cover;
+}
+.police-car-red{
+    background-color: pink; 
+    background-image: url(images/police-car-red.png);
+    background-size: cover;
+}
+.police-car-right{
+    background-color: cornflowerblue; 
+    background-image: url(images/police-car-blue.png);
+    background-size: cover;
+    transform: scaleX(-1); /*Same image flipped police-car just flipped*/
+}
+.police-car-red-right{
+    background-color: pink; 
+    background-image: url(images/police-car-red.png);
+    background-size: cover;
+    transform: scaleX(-1);
+}
+.starting-block{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.frog{
+    background-image: url(images/que03.png);
+    background-size: cover;
+}
+.frog-dead{
+    background-color: rgb(192, 202, 176);
+    border-radius: 10px;
+}
+.infected{
+    background-image: url(images/que03.png);
+    background-size: cover;
+    border-radius: 10px;
+    border-style: dashed;
+}
+.loose{
+    background-color: red;
+    border-radius: 10px;
+}
+.win{
+    background-color: #fcba03;
+}
+.starting-block-guide{
+    background-color: white;
+    background-image: url(images/text-guides/start.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.police-guide{
+    background-color: white;
+    background-image: url(images/text-guides/police.png);
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 0.75;
+}
+.pinks-guide{
+    background-color: white;
+    background-image: url(images/text-guides/pinks.png);
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 0.75;
+}
+.post-guide{
+    background-color: white;
+    background-image: url(images/text-guides/postal-vote.png);
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 0.75;
+}
+.storm-guide{
+    background-color: white;
+    background-image: url(images/text-guides/storms.png);
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 0.75;
+}
+.winner-guide{
+    background-color: white;
+    background-image: url(images/text-guides/winner.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.infected-guide{
+    background-color: white;
+    background-image: url(images/text-guides/your-infected.png);
+    background-size: cover;
+    border-radius: 10px;
+}
