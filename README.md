@@ -11,3 +11,7 @@ The games meant to be retro with a nod to Lemmings done in Vanilla JavaScript on
 ## The Game
 
 Simple grid based game where you the Voter has to reverse a series of obstacles to get to Vote in this year's election. The obstacles are ridiculous, hurrices, fires, covid, polce, white supremisits and COVID, but that's now life in the USA!
+
+## Testing git 
+
+This is just tesing my git skills
