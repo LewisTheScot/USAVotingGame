@@ -400,19 +400,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //made timers work when triggered by user hitting a range because it was to confusing to have so many things moving.
     function stepOne(){
-        timerId4 = setInterval(disappearingPostBoxes, 500)
-        timerId3 = setInterval(moveWithMarchLeft, 500)
-        timerId2 = setInterval(marchingPinks, 500) 
-        timerId1 = setInterval(movingPoliceCars, 500)
+        timerId4 = setInterval(disappearingPostBoxes, 750)
+        timerId3 = setInterval(moveWithMarchLeft, 750)
+        timerId2 = setInterval(marchingPinks, 750) 
+        timerId1 = setInterval(movingPoliceCars, 750)
     }
 
     function stepTwo(){
         clearInterval(timerId1)
         clearInterval(timerId2)
-        timerId8 = setInterval(growingQue, 1500)
+        timerId8 = setInterval(growingQue, 2000)
         timerId7 = setInterval(moveHurricane, 80)
         timerId6 = setInterval(growingFires, 2500)
-        timerId5 = setInterval(moveWithStormLeft, 100)         
+        timerId5 = setInterval(moveWithStormLeft, 80)         
     }
 
     //Pop up text graphics to guide user. Used infoGrid to sit over game grid
